@@ -1,41 +1,98 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+💰 Expense Tracker
 
-## Getting Started
 
-First, run the development server:
 
-```bash
+
+
+
+
+
+
+
+💡 About
+
+Expense Tracker is a modern full-stack web application built with Next.js (App Router) that helps you record, manage, and visualize your daily expenses.
+Stay on top of your finances, set monthly budgets, and make smarter money decisions — all through an elegant, responsive dashboard.
+
+🚀 Features
+
+✅ User Authentication — Secure login/signup with NextAuth
+💸 Expense Management — Add, edit, and delete expenses easily
+📊 Smart Dashboard — Visualize your spending with charts and analytics
+🧾 Categories — Organize your expenses by category
+🎯 Budget Goals — Set and track your monthly spending limit
+🌙 Dark Mode — Beautiful, eye-friendly interface
+📥 (Coming Soon) — CSV/PDF export, recurring expenses, and income tracking
+
+🧠 Tech Stack
+Layer	Technology
+Frontend	Next.js 15 (App Router)
+Styling	Tailwind CSS + ShadCN UI
+Backend	Next.js API Routes
+Database	MongoDB + Mongoose
+Auth	NextAuth.js
+Charts	Recharts / Chart.js
+⚙️ Setup & Installation
+1️⃣ Clone the Repository
+git clone https://github.com/<your-username>/expense-tracker.git
+cd expense-tracker
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Create .env.local
+MONGODB_URI=your_mongodb_connection_string
+NEXTAUTH_SECRET=your_generated_secret
+
+4️⃣ Run the App
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Then open → http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📁 Folder Structure
+app/
+ ├── dashboard/
+ ├── expenses/
+ ├── api/
+ │   ├── auth/
+ │   └── expenses/
+ ├── components/
+ ├── models/
+ ├── lib/
+ ├── layout.js
+ └── page.js
 
-## Learn More
+🌟 Future Enhancements
 
-To learn more about Next.js, take a look at the following resources:
+🔄 Recurring expense support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+💰 Income tracking & savings goals
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📸 Receipt uploads (OCR reading)
 
-## Deploy on Vercel
+🤖 AI-based category suggestions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📤 Export to CSV/PDF
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# expense-tracker
-A smart and simple personal finance tracker that helps you record expenses, manage budgets, and visualize spending habits. Track where your money goes, organize transactions by category, and stay in control with real-time charts and insights. Perfect for budgeting and building healthier financial habits.
->>>>>>> d71883016ea09d59825cb614cc396ace94539886
+📸 Screenshots (Coming Soon)
+
+Add your app screenshots here for GitHub preview:
+
+/public/screenshots/
+
+🧑‍💻 Author
+
+Subhajeet Dey
+💼 Full-Stack Developer | 🚀 Passionate about clean UI & scalable backend systems
+📍 GitHub
+ | 💌 subhajeet.dey@example.com
+ (optional)
+
+📝 License
+
+This project is licensed under the MIT License
+.
+Feel free to use, modify, and build upon it — just give credit 🙌
+
+⭐ If you like this project, don’t forget to star the repo — it keeps me motivated!
